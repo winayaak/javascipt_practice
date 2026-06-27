@@ -1,14 +1,15 @@
-const { log } = require("node:console")
-
-const a=10
-const b=0
-try{
-    const result=a/b
-    log(result)
+function method1(){
+    const a=3.144;
+    console.log(a);
+    a=5.67888;
+    console.log(a);
 }
-catch(error){
-    console.log(error.message)
+try{
+    method1();
+}
+catch(e){
+    console.log(e.message + " " + e.name);
 }
 finally{
-    console.log("finally block executed")
+    console.log("this is finally block");
 }

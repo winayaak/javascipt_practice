@@ -13,8 +13,8 @@ const e = marks.map((marks) =>{
 console.log(e);
 
 
- const f= marks.filter((mark) => {
-return mark >=40;
+ const f= marks.filter((marks) => {
+return marks >=40;
  });
  console.log(f);    
 
